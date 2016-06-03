@@ -1,0 +1,55 @@
+html,
+body {
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.8;
+    color: #999
+}
+
+li {
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav {
+    align-content: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+a { text-decoration: none;
+    color: gray;}
+
+a:hover 
+{
+     color: white; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+.title {
+    float: left;
+}
+
+h1 {
+    font-size: 12px;
+    float: left;
+}
+
+.head {
+    color: #333;
+    font-size: 3em;
+    text-align: center;
+}
+
+
+/* Responsive media queries
+==================================================*/
+
+@media (min-width: 768px) {
+
+
+@media only screen and (max-width: 600px) {
+
+
+@media only screen and (max-width: 420px) {
